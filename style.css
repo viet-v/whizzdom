@@ -1,0 +1,196 @@
+:root {
+    --red: #E50019;
+    --black: #000000;
+    --white: #FFFFFF;
+    --font: century-gothic, sans-serif;
+    --font-regular: 400;
+    --font-bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    width: 1920px;            /* my laptop can't afford 1920px resolution */
+    background-color: var(--black);
+}
+
+/* ---------------------- HERO SECTION --------------------- */
+
+.hero--section {
+    background-color: var(--red);
+    height: 485px;
+}
+
+.hero--section img {
+    margin: 57px 0 0 84px;
+}
+
+.hero--section h1 {
+    margin: 140px 0 0 84px;
+    color: var(--white);
+    width: 53%;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+/* ---------------------- SERVICES SECTION --------------------- */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-95px);
+}
+
+.service--left, .service--right {
+    width: 81.25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.service--image {
+    width: 626px;
+    height: 758px;
+}
+
+.service--content {
+    color: var(--white);
+    width: 45%;
+}
+
+.service--title {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.service--title span {
+    font-weight: 700;
+}
+
+.service--description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.service--list {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service--list-right {
+    width: 40%;
+}
+
+.service--cta {
+    width: 315px;
+    height: 46px;
+    background-color: transparent;
+    color: var(--red);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border: 4px solid var(--red);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.service--cta:active {
+    transform: scale(0.95);
+}
+
+
+/* ---------------------- EVENTS SECTION --------------------- */
+
+.events {
+    height: 640px;
+    background: url('./asset/posters-background.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.event--box {
+    display: flex;
+    position: absolute;
+    width: 92%;
+}
+
+.poster--box {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--white);
+    padding: 20px;
+    width: 92%;
+}
+
+.poster--box h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62px;
+    text-transform: uppercase;
+    width: 340px;
+    text-align: right;
+    color: var(--white);
+}
+
+.poster--box img {
+    width: 315px;
+    height: 315px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+.white--bar {
+    width: 20px;
+    background-color: var(--white);
+    margin-left: 12px;
+}
+
+.black--box {
+    width: 72%;
+    height: 466px;
+    background-color: var(--black);
+}
+
+.socials {
+    width: 545px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 177px 0 0;
+}
+
+.socials button {
+    width: 215px;
+    height: 46px;
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border: 4px solid var(--white);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.socials button:active {
+    transform: scale(0.95);
+}
