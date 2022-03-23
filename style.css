@@ -121,13 +121,23 @@ body {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+}
+
+
+.black--box {
+    width: 72%;
+    height: 466px;
+    background-color: var(--black);
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .event--box {
     display: flex;
+    width: 1638px;
     position: absolute;
-    width: 92%;
+    left: -380px;
 }
 
 .poster--box {
@@ -135,7 +145,7 @@ body {
     justify-content: space-between;
     border: 2px solid var(--white);
     padding: 20px;
-    width: 92%;
+    width: 1606px;
 }
 
 .poster--box h2 {
@@ -161,11 +171,6 @@ body {
     margin-left: 12px;
 }
 
-.black--box {
-    width: 72%;
-    height: 466px;
-    background-color: var(--black);
-}
 
 .socials {
     width: 545px;
