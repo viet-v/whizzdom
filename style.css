@@ -199,3 +199,47 @@ body {
 .socials button:active {
     transform: scale(0.95);
 }
+
+
+/* ---------------------- FOOTER SECTION --------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.contact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    max-width: 92%;
+    margin-bottom: 30px;
+}
+
+.office {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    max-width: 92%;
+}
+
+.contact--item, .office--item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact--info {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.8px;
+    color: var(--white);
+    margin: 0;
+    margin-left: 10px;
+}
+
+.contact--info a {
+    font-weight: 700;
+    color: var(--white);
+}
