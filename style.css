@@ -378,21 +378,15 @@ footer {
     }
 
     .nav--section {
-        height: auto;
-        width: 360px;
+        height: 80vh;
+        width: 100%;
         transform: none;
         flex-direction: column-reverse;
-        position: fixed;
-        margin-top: -100%;
+        margin-top: -120%;
     }
 
     .slideIn {
         margin-top: 0;
-    }
-
-    .nav--hamburger {
-        right: 70px;
-        position: fixed;
     }
 
     .nav--section ul {
