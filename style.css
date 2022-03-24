@@ -15,7 +15,63 @@ body {
     font-family: var(--font);
     width: 1920px;            /* my laptop can't afford 1920px resolution */
     background-color: var(--black);
+    margin: 0;
 }
+
+/* ---------------------- NAVIGATION SECTION --------------------- */
+
+header {
+    position: relative;
+}
+
+.nav--menu {
+    z-index: 2;
+    position: absolute;
+    top: 57px;
+    right: 85px;
+    cursor: pointer;
+}
+
+.nav--section {
+    height: 1080px;
+    width: 1745px;
+    background-color: var(--white);
+    transform: skew(35deg) translate(50% , 0);
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.nav--left-bar {
+    width: 40px;
+    background-color: var(--red);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav--section ul {
+    list-style-type: none;
+    margin-top: 120px;
+}
+
+.nav--section ul li {
+    margin-bottom: 22px;
+    transform: skew(-35deg);
+}
+
+.nav--section ul li img {
+    margin-top: 32px;
+}
+
+.nav--item {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--black);
+}
+
 
 /* ---------------------- HERO SECTION --------------------- */
 
