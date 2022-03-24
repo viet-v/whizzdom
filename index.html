@@ -7,6 +7,7 @@
     <title>WHIZZ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/tpw0ixx.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -41,7 +42,7 @@
     <main>
         <section class="services" id="services">
             <div class="service--left">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-right" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>360° Digital</span> Services</h3>
                     <p class="service--description">
                         We weave strategies into your brand that help establish a strong online presence and connect with your audiences. We make your brand stands out in today’s ever-changing, oversaturated digital landscape.
@@ -69,7 +70,7 @@
             </div>
             <div class="service--right">
                 <img class="service--image" src="./asset/main-meeting.jpg" alt="People in a meeting">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-left" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>360° Marketing</span> Services</h3>
                     <p class="service--description">We help brands cut through the noise with marketing solutions that increase engagements and create an impact that builds meaningful moments with your customers.</p>
                     <div class="service--list">
@@ -91,7 +92,7 @@
                 </div>
             </div>
             <div class="service--left">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-right" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>Consultation</span> Services</h3>
                     <p class="service--description">We are the partners that help you understand and meet market demands. We study, analyze and filter the noise to distil the best creative solutions that matter most to you.</p>
                     <div class="service--list">
@@ -115,7 +116,7 @@
             </div>
             <div class="service--right">
                 <img class="service--image" src="./asset/main-computer.jpg" alt="A computer set on table">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-left" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>Content & Creative</span> Services</h3>
                     <p class="service--description">From catchy award-winning content to show-stopping visuals, or ads that defy conventions, we are here to bring your brand narrative to life.</p>
                     <div class="service--list">
@@ -140,7 +141,7 @@
                 </div>
             </div>
             <div class="service--left">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-right" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>Experiential</span> Services</h3>
                     <p class="service--description">We are dedicated to enabling brands in creating meaningful, unique connections with prospects and customers. We curate only the best experiences for your business that create big buzz. </p>
                     <div class="service--list">
@@ -169,7 +170,7 @@
             </div>
             <div class="service--right">
                 <img class="service--image" src="./asset/main-making-craft.jpg" alt="Woman's hands holding a craft made from paper">
-                <div class="service--content">
+                <div class="service--content" data-aos="fade-left" data-aos-duration="500" data-aos-offset="-200">
                     <h3 class="service--title"><span>Bespoke</span> Services</h3>
                     <p class="service--description">We have solutions that create magic even behind the scenes. We go the extra mile with comprehensive offerings that enhance your business’s reputation beyond strategies or campaigns, giving you an edge to your marketing messages.</p>
                     <div class="service--list">
@@ -275,5 +276,9 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
