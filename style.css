@@ -20,10 +20,11 @@ body {
 
 /* ---------------------- NAVIGATION SECTION --------------------- */
 
-header {
+.container {
     position: relative;
+    height: 1080px;
+    overflow: hidden;
 }
-
 .nav--menu {
     z-index: 2;
     position: absolute;
@@ -31,6 +32,7 @@ header {
     right: 85px;
     cursor: pointer;
 }
+
 
 .nav--section {
     height: 1080px;
@@ -57,6 +59,10 @@ header {
 .nav--section ul li {
     margin-bottom: 22px;
     transform: skew(-35deg);
+}
+
+.nav--section ul li a:hover {
+    color: var(--red);
 }
 
 .nav--section ul li img {
@@ -98,7 +104,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateY(-95px);
+    transform: translateY(-690px);
+    margin-bottom: -690px;
 }
 
 .service--left, .service--right {
@@ -177,6 +184,7 @@ header {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 90px;
 }
 
 
