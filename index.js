@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.nav--hamburger');    // hamburger menu
 const hamburgerBars = document.querySelectorAll('.line');       // hamburger menu bars
 const navSection = document.querySelector('.nav--section');     // navigation section
-const navOverlay = document.querySelector('.nav-overlay');      // slight overlay on screen when open navigation
+const navOverlay = document.querySelector('.nav--overlay');      // slight overlay on screen when open navigation
 
 
 hamburger.addEventListener('click', function () {         // click on hamburger to open/close navigation
