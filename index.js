@@ -4,6 +4,7 @@ const navSection = document.querySelector('.nav--section');     // navigation se
 const navOverlay = document.querySelector('.nav--overlay');      // slight overlay on screen when open navigation
 
 
+
 hamburger.addEventListener('click', function () {         // click on hamburger to open/close navigation
     hamburgerBars.forEach(bar => bar.classList.toggle('color-change'));
     hamburger.classList.toggle('rotate');
@@ -17,4 +18,5 @@ navOverlay.addEventListener('click', function () {        // click on overlay to
     navSection.classList.toggle('slideIn');
     navOverlay.classList.toggle('display');
 })
+
 
