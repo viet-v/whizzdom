@@ -367,6 +367,9 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+    }
     
     /* ---------------------- Navigation bar --------------------- */
     .container {
@@ -420,7 +423,7 @@ footer {
         height: max-content;
         display: grid;
         grid-template-rows: 85px 1fr;
-        padding-left: 20px;
+        padding: 0 20px 0 20px;
     }
 
     .hero--section h1 {
@@ -434,6 +437,7 @@ footer {
     .hero--section a {
         display: flex;
         align-items: center;
+        width: max-content;
     }
 
     .hero--section img {
@@ -444,7 +448,7 @@ footer {
 
     /* ---------------------- Services section --------------------- */
     .services {
-        transform: translateY(0);
+        transform: translateY(55px);
         margin: 0;
     }
 
